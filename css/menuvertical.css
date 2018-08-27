@@ -1,0 +1,39 @@
+body {
+	background-color:  powderblue;
+}
+/*------Estilo para la lista----*/
+ul {
+	/*Permite quitar las viñetas*/
+	list-style-type: none;
+	/*quitar Margenes*/
+	margin: 0px;
+	padding: 0px;
+	/*Especificamos borde primero el
+	 ancho del borde, segundo el estilo
+	 y tercero el color*/
+	border: 1px solid #ccc;
+	/*Ancho de la lista*/
+	width: 130px;
+}
+a{
+	font-family: 'Indie Flower', 
+	cursive;
+	color: red;
+	/*quitar subrayados*/
+	text-decoration: none;
+	font-size: 16px;
+	/*convertir a bloque*/
+	display: block;
+	/*Relleno*/
+	padding: 6px;
+	border: 1px solid #ccc;
+	background-color: #EAEAEA;
+
+}
+/*Estilo para el anlace para el pseudoclase hover*/
+a:hover{
+	color: white;
+	background-color: #666;
+	border-right-width: 5px;
+	border-right-color: #CF2D2D;  
+}
