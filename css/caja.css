@@ -1,0 +1,38 @@
+#caja2,#caja3,#caja4,#caja1{
+	width: 200px;
+	height: 300px;
+}
+#caja1{
+	background-color: red;
+	border: 10px solid blue;
+	margin: 10px 50px 20px 100px;
+}
+#caja2{
+	background-color: skyblue;
+	display: inline-block;
+}
+#caja3{
+	background-color: cyan;
+}
+#caja4{
+	background-color: navy;
+	border: 10px solid blue;
+}
+div img{
+	margin: 30px;
+
+}
+.muestra{
+	margin: 5px 50px ;
+	padding: 120px 10px;
+	border: 5px solid #C00;
+	height: 100px;
+	width: 400px;
+	background-color: skyblue;
+}
+.anterior,.posterior{
+	height: 100px;
+	width: 200px;
+	border: 2px solid#30F;
+	padding: 0px;
+}
